@@ -27,6 +27,9 @@ function trim_paragraph($para, $max_words = 22) {
     <meta id="twitterDescription" name="twitter:description" content="Britannia Nutrition Foundation" />
     <meta id="twitterImage" name="twitter:image" content="http://britannia.co.in/saycheese/images/fb.jpg" />
     <!--css-->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+    <!--  -->
     <link rel="stylesheet" type="text/css" href="css/style.css?v=1.8.7">
     <link rel="stylesheet" type="text/css" href="css/media1400.css?v=1.1.3">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -67,7 +70,7 @@ function trim_paragraph($para, $max_words = 22) {
             </div>
             <div class="col-10 m-0 p-0">
 <nav>
-                <ul class="navbar-nav flex-row justify-content-end">
+                <ul class="navbar-nav flex-row justify-content-end socialmedia">
                     <li class="a-nav">
                       <a class="a-href nav-link" href="#" aria-label="Britannia"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
