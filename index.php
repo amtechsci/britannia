@@ -581,13 +581,6 @@
 
 
 
-<?php include 'foot.php';?>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script>
     const video = document.getElementById('myVideo');
     const playPauseButton = document.getElementById('playPauseButton');
     const progressBar = document.getElementById('progressBar');
