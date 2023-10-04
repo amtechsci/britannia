@@ -1,7 +1,8 @@
-<?php include 'head.php';?>
+<?php include 'head.php'; ?>
 
-<div id="fullpage">
+<div class="slider">
     <div class="section" id="section0">
+        <?php include 'navbar.php'; ?>
         <div class="row mp-0" style="background: #d2d2d2;">
             <div class="col-12 mp-0 a-center d-flex">
                 <div class="video-container" style="width:100%;height: 100vh;">
@@ -55,46 +56,104 @@
         </div>
     </div>
     <div class="section" id="section2">
-        <div style="background: #f2f2f2;">
-            <div class="p-5">
-                <div class="row">
-                    <div class="col-12 p-0 a-middle a-center mb-5" style="flex-direction: column;">
+        <div style="background: #f2f2f2; width:100%;height:100%">
+            <div class="p-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 p-0 a-middle a-center" style="flex-direction: column;">
                         <h1 style="color:#099440;font-weight: 900;" class="text-center">OUR IMPACT STORIES</h1>
                     </div>
                     <!-- Card 1 -->
-                    <div class="col-md-4">
-                        <div class="pantheoncard hover-card">
-                            <img src="img/23.webp" class="img-fluid">
-                            <div class="card-overlay">
-                                <h4>Kartik Adivasi, A Child recovered from malnutrition</h4>
-                                <p>
-                                    <?=trim_paragraph("Acute malnutrition among Sahariyas, a particularly vulnerable tribal group, is very high due to crushing poverty, lack of diet, breastfeeding, premature pregnancies & seasonal migration.");?>
-                                </p>
-                                <a href="#" class="pantheonlink">READ MORE</a>
+                    <!-- <div class="col-2 d-flex align-items-end">
+                        <div class="btn-wrap">
+                            <button class="prev-btn slick-prev">Read More
+                            </button>
+                        </div>
+                    </div> -->
+                    <div class="row ourimpactslider col-10">
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/23.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Kartik Adivasi, A Child recovered from malnutrition</h4>
+                                    <p class="card-text"> Acute malnutrition among Sahariyas, a particularly
+                                        vulnerable
+                                        tribal
+                                        group, is very
+                                        seasonal migration.</p>
+                                    <a href="#" class="btn ps-0 text-success">Read More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="col-md-4">
-                        <div class="pantheoncard hover-card">
-                            <img src="img/26.webp" class="img-fluid">
-                            <div class="card-overlay">
-                                <h4>Durga Adivasi - SAM Child Story</h4>
-                                <p>
-                                    <?=trim_paragraph("Durga Adivasi is a two and a half year old child who lives in the hamlet hastinapur, Shivpuri which is 3 kms away from village. Durga was a SAM child, When BNF team detected her, the child was in malnourished situations, BNF has made efforts to convince the parents that child needs medical assistance. But child parents believes in black magic and was under an impression that")?>
-                                </p>
-                                <a href="#" class="pantheonlink">READ MORE</a>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/26.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Durga Adivasi - SAM Child Stor</h4>
+                                    <p class="card-text">Durga Adivasi is a two and a half year old child who lives
+                                        in
+                                        the
+                                        hamlet hastinapur, Shivpuri which is 3 kms away from village. Durga was a
+                                        SAM
+                                        child,</p>
+                                    <a href="#" class="btn ps-0 text-success">Read More</a>
+                                </div>
                             </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/26.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Durga Adivasi - SAM Child Stor</h4>
+                                    <p class="card-text">Durga Adivasi is a two and a half year old child who lives
+                                        in
+                                        the
+                                        hamlet hastinapur, Shivpuri which is 3 kms away from village. Durga was a
+                                        SAM</p>
+                                    <a href="#" class="btn ps-0 text-success">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-4">
+                            <div class="card">
+                                <img src="img/26.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Durga Adivasi - SAM Child Stor</h4>
+                                    <p class="card-text">Durga Adivasi is a two and a half year old child who lives
+                                        in
+                                        the
+                                        hamlet hastinapur, Shivpuri which is 3 kms away from village. Durga was a
+                                        SAM
+                                        child,
+                                        When BNF team detected her, the child was in malnourished situations, BNF
+                                        has
+                                        made
+                                        efforts to convince the parents that child needs medical assistance. But
+                                        child
+                                        parents believes in black magic and was under an impression that.</p>
+                                    <a href="#" class="btn ps-0 text-success">Read More</a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-10 mt-1 d-flex justify-content-between px-5">
+                        <div class="btn-wrap d-flex">
+                            <button class="prev-btn slick-prev">Read More
+                            </button>
+                        </div>
+                        <div class="btn-wrap ">
+                            <button class="prev-btn slick-prev"> <i class="bi bi-chevron-left ldIcon fw-bold fs-3"></i>
+                            </button>
+                            <button class="next-btn"><i class="bi bi-chevron-right ldIcon fw-bold fs-3"></i></button>
                         </div>
                     </div>
                     <!-- Card 3 -->
-                    <div class="col-md-4">
+                    <!-- <div class="col-md-4">
                         <div class="pantheoncard hover-card">
                             <img src="img/24.webp" class="img-fluid">
                             <div class="card-overlay">
                                 <h4>Kartik Adivasi, Another Story</h4>
                                 <p>
-                                    <?=trim_paragraph("Acute malnutrition among Sahariyas, a particularly vulnerable tribal group, is very high due to crushing poverty, lack of diet, breastfeeding, premature pregnancies & seasonal migration.")?>
+                                    <?= trim_paragraph("Acute malnutrition among Sahariyas, a particularly vulnerable tribal group, is very high due to crushing poverty, lack of diet, breastfeeding, premature pregnancies & seasonal migration.") ?>
                                 </p>
                                 <a href="#" class="pantheonlink">READ MORE</a>
                             </div>
@@ -102,7 +161,7 @@
                     </div>
                     <div class="col-12 p-0 a-middle a-center mt-5" style="flex-direction: column;">
                         <a href="#" class="pantheonlink">VIEW ALL STORIES</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -205,12 +264,16 @@
                     <div class="gallery-item">
                         <img src="img/22-20.webp" class="img-fluid">
                     </div>
+                    <!-- Image 21 -->
+                    <div class="gallery-item">
+                        <img src="img/22-20.webp" class="img-fluid">
+                    </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <div class="section" id="section5">
+    <div class="section overflow-hidden" id="section5">
         <div style="background: #fff;">
             <div class="p-5">
                 <div class="row">
@@ -544,41 +607,21 @@
             </div>
         </div>
     </div>
-    <div class="section" id="section6">
-        <?php include 'foot.php';?>
+    <div class="section d-flex align-items-center" id="section6">
+        <?php include 'foot.php'; ?>
     </div>
 </div>
 
-<div id="fp-nav" class="dots" style="margin-top: -63.5px;">
-    <ul>
-        <li><a href="#" class="active"></a></li>
-        <li><a href="#" class=""></a></li>
-        <li><a href="#" class=""></a></li>
-        <li><a href="#" class=""></a></li>
-        <li><a href="#" class=""></a></li>
-        <li><a href="#" class=""></a></li>
-    </ul>
-</div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
 
 
     const video = document.getElementById('myVideo');
@@ -618,40 +661,72 @@
         playPauseButton.textContent = "▶";
     });
 
-    var $carousel = $(".slick-slider").slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: false,
-        arrows: false,
-        vertical: true,
-        dots: true
+
+
+
+    $(document).ready(function () {
+        // Initialize the Slick slider
+        $(".ourimpactslider").slick({
+            infinite: true,
+            autoplay: false,
+            loop: true,
+            arrows: false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            swipe: false,
+        });
+
+        // Add click event handlers for the previous and next buttons
+        $(".prev-btn").click(function () {
+            $(".ourimpactslider").slick("slickPrev"); // Use the correct class for the slider
+        });
+
+        $(".next-btn").click(function () {
+            $(".ourimpactslider").slick("slickNext"); // Use the correct class for the slider
+        });
     });
 
-    $("#fullpage").fullpage({
-        navigation: true,
-        dots: true,
-        onLeave: function (origin, destination, direction) {
-            if (direction == "down") {
-                $carousel.slick("slickNext");
-            } else if (direction == "up") {
-                $carousel.slick("slickPrev");
+
+
+    jQuery(document).ready(function () {
+        $('.slider').slick({
+            infinite: false,
+            dots: true,
+            arrows: false,
+            vertical: true,
+            // loop:false,
+            slidesToShow: 1, // Show only one slide at a time
+            slidesToScroll: 1 // Scroll one slide at a time
+        });
+
+        let isScrolling = false;
+
+        // Add a wheel event listener to the slider
+        $('.slider').on('wheel', function (e) {
+            e.preventDefault(); // Prevent the default scrolling behavior
+
+            if (isScrolling) {
+                return;
             }
-        },
-        afterLoad: function (origin, destination, direction) {
-            // Check if the second section is on the screen (destination.index is 1 for the second section)
-            if (destination.index !== 0) {
-                // Hide the navigation bar
-                $(".a-nav-back").css("background-color", "white");
-                $(".a-nav-back").css("transition", "0.4s ");
-                $(".socialmedia").addClass("socialmediaActive");
+
+            isScrolling = true;
+
+            const delta = e.originalEvent.deltaY; // Get the scroll direction
+
+            if (delta > 0) {
+                // Scroll down, go to the next slide
+                $('.slider').slick('slickNext');
+            } else if (delta < 0) {
+                // Scroll up, go to the previous slide
+                $('.slider').slick('slickPrev');
             }
-            else {
-                // Show the navigation bar for other sections
-                $(".a-nav-back").css("background-color", "transparent");
-                $(".socialmedia").removeClass("socialmediaActive");
-            }
-        }
+
+            setTimeout(function () {
+                isScrolling = false;
+            }, 1000); // Delay to prevent rapid scrolling
+        });
     });
+
 
 
 
